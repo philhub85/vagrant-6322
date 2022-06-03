@@ -8,3 +8,16 @@ pipeline {
             steps {
                 echo 'Hello World'
     }
+    stages {
+        stage('Build') {
+            node {
+                echo 'Building'
+    }
+    stages {
+        stage('Test') {
+            node {
+                echo 'Testing'
+            }
+        }
+    }  
+}
