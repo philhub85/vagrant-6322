@@ -8,15 +8,3 @@ pipeline {
             steps {
                 echo 'Hello World'
     }
-    stages
-        stage('Build') {
-  node {
-
-  }
-}
-
-stage('Test') {
-  node {
-
-  }
-}
